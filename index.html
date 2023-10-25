@@ -4,8 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <p>Git test on windows WSL</p>
+    <div class="flex-container">
+        <div class="logo-container">
+            <!-- <img width="200px" src="./images/bgimage.jpg" alt=""> -->
+        </div>
+        <div class="container">
+            <div class="sign-up-container">
+                <div class="title-container">
+                    <p class="title">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started.</p>
+                    <p class="title">You <i>know</i> what to do.</p>
+                </div>
+                <div class="form-container">
+                    <form action="#" method="post">
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="first-name" id="first-name">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" name="last-name" id="last-name">
+                        <label for="user-email">Email</label>
+                        <input type="email" name="user-email" id="user-email">
+                        <label for="phone-number">Phone number</label>
+                        <input type="number" name="phone-number" id="phone-number">
+                        <label for="user-password">Password</label>
+                        <input type="password" name="user-password" id="user-password">
+                        <label for="confirm-password">Confirm password</label>
+                        <input type="password" name="confirm-password" id="confirm-password">
+                    </form>
+                </div>
+                <div class="confirm">
+                    <button class="create-account" type="submit" name="submit-form">Create Account</button>
+                    <p>Already have an account? <a href="#"><i><b>Log In</b></i></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
